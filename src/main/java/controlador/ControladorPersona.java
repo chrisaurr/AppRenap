@@ -618,6 +618,8 @@ public class ControladorPersona implements ActionListener {
         vista.checkMedioDer.setSelected(false);
         vista.checkAnularDer.setSelected(false);
         vista.checkMeniqueDer.setSelected(false);
+        vista.txtNombreUsual.setText("");
+        vista.txtIdentificacion.setText("");
     }
    
 }
